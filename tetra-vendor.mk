@@ -34,7 +34,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/hals,system/lib)
 
 # Proprietary etc/permissions
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/propietary/etc/permissions,system/etc/permissions)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/etc/permissions,system/etc/permissions)
 
 # Proprietary etc/wifi
 PRODUCT_COPY_FILES += \
@@ -102,7 +102,7 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin
 
 # Proprietary system/bin
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/propietary/bin,system/bin)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/proprietary/bin,system/bin)
 
 # Proprietart system/xbin
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/propietary/xbin,system/xbin)
